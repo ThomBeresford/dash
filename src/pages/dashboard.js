@@ -1,4 +1,5 @@
 import React from 'react';
+import Calendar from '../components/Calendar';
 import Seperator from '../components/seperator';
 import IconSeperator from '../components/iconseperator';
 import Card from '../components/card';
@@ -20,6 +21,7 @@ const Dashboard = () => (
       </Card>
     </div>
     <div className={style.rowseperator} />
+    <Calendar />
     <div className={style.rowtwo}>
       <WeatherCard />
       <div className={style.iconcontainer}>
